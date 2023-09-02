@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A204CB152A0840A0007DCFED /* courses.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = A23B234429C6590400437A6B /* courses.sqlite3 */; settings = {ASSET_TAGS = (courses, ); }; };
+		A204CB162A0840A0007DCFED /* courses.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = A23B234429C6590400437A6B /* courses.sqlite3 */; settings = {ASSET_TAGS = (courses, ); }; };
+		A204CB182A0846EA007DCFED /* default_courses.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A204CB172A0846EA007DCFED /* default_courses.bundle */; };
+		A204CB192A0846EA007DCFED /* default_courses.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A204CB172A0846EA007DCFED /* default_courses.bundle */; };
+		A2CB8D3C293C15FC00CA56D6 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8D3B293C15F300CA56D6 /* SQLite.framework */; };
+		A2CB8D3D293C15FC00CA56D6 /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A2CB8D3B293C15F300CA56D6 /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A2CB8D6A2967834F00CA56D6 /* segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2CB8D622967834F00CA56D6 /* segment.ttf */; };
+		A2CB8D912967849F00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2CB8D3F293C164B00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist */; };
+		A2CB8D92296784B300CA56D6 /* Golf-Finder-WatchKit-App-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2CB8D3F293C164B00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist */; };
+		A2CB8D932967853200CA56D6 /* segment.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2CB8D622967834F00CA56D6 /* segment.ttf */; };
+		A2E8BE0B279BA03A00DEA309 /* Golf Finder WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A2E8BE0A279BA03A00DEA309 /* Golf Finder WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A2E8BE10279BA03C00DEA309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E8BE0F279BA03C00DEA309 /* Assets.xcassets */; };
+		A2E8BE1B279BA03C00DEA309 /* Golf_FinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE1A279BA03C00DEA309 /* Golf_FinderApp.swift */; };
+		A2E8BE1D279BA03C00DEA309 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE1C279BA03C00DEA309 /* ContentView.swift */; };
+		A2E8BE1F279BA03C00DEA309 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE1E279BA03C00DEA309 /* NotificationController.swift */; };
+		A2E8BE21279BA03C00DEA309 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE20279BA03C00DEA309 /* NotificationView.swift */; };
+		A2E8BE23279BA03C00DEA309 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE22279BA03C00DEA309 /* ComplicationController.swift */; };
+		A2E8BE25279BA03C00DEA309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E8BE24279BA03C00DEA309 /* Assets.xcassets */; };
+		A2E8BE28279BA03C00DEA309 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2E8BE27279BA03C00DEA309 /* Preview Assets.xcassets */; };
+		A2E8BE40279BA69000DEA309 /* courses_parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8BE3A279BA15C00DEA309 /* courses_parser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2CB8D2E293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		A2CB8D30293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		A2CB8D32293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		A2CB8D34293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		A2CB8D36293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		A2CB8D38293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		A2CB8D3A293C15F300CA56D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+		A2E8BE0C279BA03A00DEA309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2E8BE00279BA03A00DEA309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E8BE09279BA03A00DEA309;
+			remoteInfo = "Golf Finder WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A266FF2A281F7F18008AB64E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CB8D3E293C15FC00CA56D6 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A2CB8D3D293C15FC00CA56D6 /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E8BE34279BA03C00DEA309 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A2E8BE0B279BA03A00DEA309 /* Golf Finder WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A204CB172A0846EA007DCFED /* default_courses.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = default_courses.bundle; sourceTree = "<group>"; };
+		A23B234429C6590400437A6B /* courses.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; name = courses.sqlite3; path = "Golf Finder WatchKit App/courses.sqlite3"; sourceTree = SOURCE_ROOT; };
+		A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "SQLite.swift-0.13.3/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		A2CB8D3F293C164B00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Golf-Finder-WatchKit-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A2CB8D622967834F00CA56D6 /* segment.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = segment.ttf; sourceTree = "<group>"; };
+		A2E8BE06279BA03A00DEA309 /* Golf Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E8BE0A279BA03A00DEA309 /* Golf Finder WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Golf Finder WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2E8BE0F279BA03C00DEA309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2E8BE1A279BA03C00DEA309 /* Golf_FinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golf_FinderApp.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		A2E8BE1C279BA03C00DEA309 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2E8BE1E279BA03C00DEA309 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		A2E8BE20279BA03C00DEA309 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		A2E8BE22279BA03C00DEA309 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		A2E8BE24279BA03C00DEA309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2E8BE27279BA03C00DEA309 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2E8BE29279BA03C00DEA309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E8BE2A279BA03C00DEA309 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A2E8BE3A279BA15C00DEA309 /* courses_parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = courses_parser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2CB8D1F2935B8DC00CA56D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2CB8D3C293C15FC00CA56D6 /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A266FF27281F7F18008AB64E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2CB8D25293C15F300CA56D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB8D2F293C15F300CA56D6 /* SQLite.framework */,
+				A2CB8D31293C15F300CA56D6 /* SQLiteTests iOS.xctest */,
+				A2CB8D33293C15F300CA56D6 /* SQLite.framework */,
+				A2CB8D35293C15F300CA56D6 /* SQLiteTests Mac.xctest */,
+				A2CB8D37293C15F300CA56D6 /* SQLite.framework */,
+				A2CB8D39293C15F300CA56D6 /* SQLiteTests tvOS.xctest */,
+				A2CB8D3B293C15F300CA56D6 /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2E8BDFF279BA03A00DEA309 = {
+			isa = PBXGroup;
+			children = (
+				A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */,
+				A2E8BE0E279BA03A00DEA309 /* Golf Finder WatchKit App */,
+				A2E8BE19279BA03C00DEA309 /* Golf Finder WatchKit Extension */,
+				A2E8BE07279BA03A00DEA309 /* Products */,
+				A266FF27281F7F18008AB64E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2E8BE07279BA03A00DEA309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2E8BE06279BA03A00DEA309 /* Golf Finder.app */,
+				A2E8BE0A279BA03A00DEA309 /* Golf Finder WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2E8BE0E279BA03A00DEA309 /* Golf Finder WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A2CB8D3F293C164B00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist */,
+				A2CB8D622967834F00CA56D6 /* segment.ttf */,
+				A2E8BE0F279BA03C00DEA309 /* Assets.xcassets */,
+				A23B234429C6590400437A6B /* courses.sqlite3 */,
+				A204CB172A0846EA007DCFED /* default_courses.bundle */,
+			);
+			path = "Golf Finder WatchKit App";
+			sourceTree = "<group>";
+		};
+		A2E8BE19279BA03C00DEA309 /* Golf Finder WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A2E8BE1A279BA03C00DEA309 /* Golf_FinderApp.swift */,
+				A2E8BE1C279BA03C00DEA309 /* ContentView.swift */,
+				A2E8BE1E279BA03C00DEA309 /* NotificationController.swift */,
+				A2E8BE20279BA03C00DEA309 /* NotificationView.swift */,
+				A2E8BE22279BA03C00DEA309 /* ComplicationController.swift */,
+				A2E8BE3A279BA15C00DEA309 /* courses_parser.swift */,
+				A2E8BE24279BA03C00DEA309 /* Assets.xcassets */,
+				A2E8BE29279BA03C00DEA309 /* Info.plist */,
+				A2E8BE2A279BA03C00DEA309 /* PushNotificationPayload.apns */,
+				A2E8BE26279BA03C00DEA309 /* Preview Content */,
+			);
+			path = "Golf Finder WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A2E8BE26279BA03C00DEA309 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2E8BE27279BA03C00DEA309 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2E8BE05279BA03A00DEA309 /* Golf Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E8BE35279BA03C00DEA309 /* Build configuration list for PBXNativeTarget "Golf Finder" */;
+			buildPhases = (
+				A2E8BE04279BA03A00DEA309 /* Resources */,
+				A2E8BE34279BA03C00DEA309 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2E8BE0D279BA03A00DEA309 /* PBXTargetDependency */,
+			);
+			name = "Golf Finder";
+			productName = "Golf Finder";
+			productReference = A2E8BE06279BA03A00DEA309 /* Golf Finder.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		A2E8BE09279BA03A00DEA309 /* Golf Finder WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2E8BE31279BA03C00DEA309 /* Build configuration list for PBXNativeTarget "Golf Finder WatchKit App" */;
+			buildPhases = (
+				A2E8BE08279BA03A00DEA309 /* Resources */,
+				A2CB8D1F2935B8DC00CA56D6 /* Frameworks */,
+				A2CB8D3E293C15FC00CA56D6 /* Embed Frameworks */,
+				A2E8BE11279BA03C00DEA309 /* Sources */,
+				A266FF2A281F7F18008AB64E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Golf Finder WatchKit App";
+			productName = "Golf Finder WatchKit App";
+			productReference = A2E8BE0A279BA03A00DEA309 /* Golf Finder WatchKit App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2E8BE00279BA03A00DEA309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					courses,
+				);
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					A2E8BE05279BA03A00DEA309 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A2E8BE09279BA03A00DEA309 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A2E8BE03279BA03A00DEA309 /* Build configuration list for PBXProject "Golf Finder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2E8BDFF279BA03A00DEA309;
+			productRefGroup = A2E8BE07279BA03A00DEA309 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A2CB8D25293C15F300CA56D6 /* Products */;
+					ProjectRef = A2CB8D24293C15F300CA56D6 /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A2E8BE05279BA03A00DEA309 /* Golf Finder */,
+				A2E8BE09279BA03A00DEA309 /* Golf Finder WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A2CB8D2F293C15F300CA56D6 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A2CB8D2E293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D31293C15F300CA56D6 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = A2CB8D30293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D33293C15F300CA56D6 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A2CB8D32293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D35293C15F300CA56D6 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = A2CB8D34293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D37293C15F300CA56D6 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A2CB8D36293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D39293C15F300CA56D6 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = A2CB8D38293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		A2CB8D3B293C15F300CA56D6 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = A2CB8D3A293C15F300CA56D6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2E8BE04279BA03A00DEA309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204CB152A0840A0007DCFED /* courses.sqlite3 in Resources */,
+				A2CB8D6A2967834F00CA56D6 /* segment.ttf in Resources */,
+				A204CB182A0846EA007DCFED /* default_courses.bundle in Resources */,
+				A2CB8D912967849F00CA56D6 /* Golf-Finder-WatchKit-App-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E8BE08279BA03A00DEA309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A204CB162A0840A0007DCFED /* courses.sqlite3 in Resources */,
+				A2E8BE28279BA03C00DEA309 /* Preview Assets.xcassets in Resources */,
+				A204CB192A0846EA007DCFED /* default_courses.bundle in Resources */,
+				A2CB8D932967853200CA56D6 /* segment.ttf in Resources */,
+				A2E8BE25279BA03C00DEA309 /* Assets.xcassets in Resources */,
+				A2E8BE10279BA03C00DEA309 /* Assets.xcassets in Resources */,
+				A2CB8D92296784B300CA56D6 /* Golf-Finder-WatchKit-App-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2E8BE11279BA03C00DEA309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E8BE1F279BA03C00DEA309 /* NotificationController.swift in Sources */,
+				A2E8BE1D279BA03C00DEA309 /* ContentView.swift in Sources */,
+				A2E8BE23279BA03C00DEA309 /* ComplicationController.swift in Sources */,
+				A2E8BE40279BA69000DEA309 /* courses_parser.swift in Sources */,
+				A2E8BE1B279BA03C00DEA309 /* Golf_FinderApp.swift in Sources */,
+				A2E8BE21279BA03C00DEA309 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2E8BE0D279BA03A00DEA309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2E8BE09279BA03A00DEA309 /* Golf Finder WatchKit App */;
+			targetProxy = A2E8BE0C279BA03A00DEA309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2E8BE2B279BA03C00DEA309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2E8BE2C279BA03C00DEA309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2E8BE32279BA03C00DEA309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49P7PTJC37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Golf-Finder-WatchKit-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Finder WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to work properly.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to work properly.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kyler-Smith.Golf-Finder.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		A2E8BE33279BA03C00DEA309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49P7PTJC37;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Golf-Finder-WatchKit-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Golf Finder WatchKit App";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "This app needs your location to work properly.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs your location to work properly.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kyler-Smith.Golf-Finder.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+		A2E8BE36279BA03C00DEA309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49P7PTJC37;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kyler-Smith.Golf-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Debug;
+		};
+		A2E8BE37279BA03C00DEA309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 49P7PTJC37;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kyler-Smith.Golf-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				WATCHOS_DEPLOYMENT_TARGET = 8.7;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2E8BE03279BA03A00DEA309 /* Build configuration list for PBXProject "Golf Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E8BE2B279BA03C00DEA309 /* Debug */,
+				A2E8BE2C279BA03C00DEA309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E8BE31279BA03C00DEA309 /* Build configuration list for PBXNativeTarget "Golf Finder WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E8BE32279BA03C00DEA309 /* Debug */,
+				A2E8BE33279BA03C00DEA309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2E8BE35279BA03C00DEA309 /* Build configuration list for PBXNativeTarget "Golf Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2E8BE36279BA03C00DEA309 /* Debug */,
+				A2E8BE37279BA03C00DEA309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2E8BE00279BA03A00DEA309 /* Project object */;
+}
